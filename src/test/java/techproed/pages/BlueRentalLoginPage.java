@@ -9,10 +9,20 @@ public class BlueRentalLoginPage {
     }
     @FindBy(name = "email")
     public WebElement emailBox;
+
     @FindBy(name = "password")
     public WebElement passwordBox;
+
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement loginButton;
+
     @FindBy(xpath="//div[@role='alert']")
     public WebElement error_message_1;
+
+    @FindBy(xpath = "(//*[.='Bad credentials'])[2]")
+    public WebElement badCredentialsMassage;
+
+    @FindBy(xpath = "//*[.='email must be a valid email']")
+    public WebElement invalidEmail;
+
 }

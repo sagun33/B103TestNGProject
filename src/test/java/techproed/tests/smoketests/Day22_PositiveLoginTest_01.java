@@ -5,7 +5,7 @@ import techproed.pages.BlueRentalHomePage;
 import techproed.pages.BlueRentalLoginPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
-public class Day22_PositiveLoginTest {
+public class Day22_PositiveLoginTest_01 {
     /*
     Name: US100201_Admin_Login
     Description:
