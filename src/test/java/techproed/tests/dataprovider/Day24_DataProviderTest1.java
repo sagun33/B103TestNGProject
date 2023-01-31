@@ -18,7 +18,7 @@ public class Day24_DataProviderTest1 {
     ***Data provider DDT(Data Driven Testing) icin kullanilir. Birden fazla datayi test caselerde kullanmak icin kullanilir
     Data Provider i nasil kullanirsin?
     ***@DataProvider annotasyonu ile veri havuzu olusturulur.
-    @Test metotlariaa bu data havuzu dataProvider parametresi ile baglanir.
+    @Test metotlarina bu data havuzu dataProvider parametresi ile baglanir.
     Data provider da 2 tane parametre vardir:
     ***name : metot ismini override etmek icin, yani farkli bir isim ile data provider i cagirmak icin kullanir
     ***parallel : parallel test case ler olusturmak icin kullanilir

@@ -20,7 +20,7 @@ public class Day19_TestNGAnnotations {
     ---------------------------------------------------------------------------------------------
     TestNG de test case ler isim sirasina gore calisir
     @Test(priority = 1) : Test caseler oncelemek icin kullnalir
-    NOT : default prioriry nin degeri 0 a esittir
+    NOT : default priority nin degeri 0 a esittir
     @Test = @Test(priority = 0)
      */
     @BeforeSuite

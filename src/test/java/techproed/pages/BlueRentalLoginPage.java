@@ -13,16 +13,25 @@ public class BlueRentalLoginPage {
     @FindBy(name = "password")
     public WebElement passwordBox;
 
-    @FindBy(xpath = "//button[@type='submit']")
-    public WebElement loginButton;
 
-    @FindBy(xpath="//div[@role='alert']")
-    public WebElement error_message_1;
+
+    @FindBy(xpath = "//*[text()='Bad credentials']")
+    public WebElement errorMessage;
 
     @FindBy(xpath = "(//*[.='Bad credentials'])[2]")
     public WebElement badCredentialsMassage;
 
     @FindBy(xpath = "//*[.='email must be a valid email']")
     public WebElement invalidEmail;
+
+    @FindBy(name = "email")
+    public WebElement userName;
+    @FindBy(name = "password")
+    public WebElement password;
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement loginButton;
+
+    @FindBy(xpath = "//div[.='email must be a valid email']")
+    public WebElement invalid_Email_Message;
 
 }

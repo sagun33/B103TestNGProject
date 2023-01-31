@@ -1,5 +1,6 @@
 package techproed.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -10,7 +11,7 @@ public class Day20_SoftAssertion {
         SoftAssert softAssert=new SoftAssert();
         System.out.println("Satir 14");
         softAssert.assertEquals(2,5);
-        System.out.println("SAtir 16");
+        System.out.println("Satir 16");
         softAssert.assertTrue("Java".contains("U"));
         System.out.println("Satir 18");
         softAssert.assertTrue(true);

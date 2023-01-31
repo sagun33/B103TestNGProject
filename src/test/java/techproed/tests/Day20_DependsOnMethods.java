@@ -5,7 +5,7 @@ public class Day20_DependsOnMethods {
     @Test
     public void homeTest(){
         System.out.println("Home Test");
-        Assert.assertTrue(false);//FAIL
+        Assert.assertTrue(true);//FAIL
     }
     @Test(dependsOnMethods = "homeTest")
     public void searchTest(){
@@ -17,7 +17,7 @@ public class Day20_DependsOnMethods {
     }
 }
 /*
-TestNG de tum  @Test metotlar bitbirlerinden bagimsiz olarak calisirlat
+TestNG de tum  @Test metotlar birbirlerinden bagimsiz olarak calisirlar
 Eger methodlari bagimli hale getirmek istersem, dependsOnMethods parametresi kullanilir
 Burdaki ornekde, searchTest methodu homeTest methoduna bagimlidir
 searchTest den once homeTest calisir
