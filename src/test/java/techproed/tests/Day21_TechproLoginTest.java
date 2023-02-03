@@ -6,7 +6,7 @@ import techproed.pages.TechproLoginPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
 public class Day21_TechproLoginTest {
-    @Test
+    @Test(priority = 1,groups = "regression-tests")
     public void loginTest(){
         TechproLoginPage techproLoginPage = new TechproLoginPage();
         TechproHomePage techproHomePage = new TechproHomePage();
