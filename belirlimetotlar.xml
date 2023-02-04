@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/techproed/IdeaProjects/B103TestNGProject/src/test/java/techproed/tests/Day19_TestNGAnnotations.java">
+        <classes>
+            <class name="techproed.tests.Day19_TestNGAnnotations">
+                <methods>
+                    <include name="test7"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+        <!--include olan metot isimlerini calistirir digerlerini calistirmaz
+             <include name="test7"/> sadece test7 yi calistir.
+            exclude : exlude olan metotlarin disindakilerin hepsini calistir
+            <exclude name="test7"/> test7 nin haricindekiu tum metotlari calistir-->
